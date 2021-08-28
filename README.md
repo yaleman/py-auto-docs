@@ -4,4 +4,4 @@ Example module for automatically documenting a python module using [mkdocs](http
 
 Check out the source files here: [https://github.com/yaleman/py-auto-docs/](https://github.com/yaleman/py-auto-docs/)
 
-[Check out the generatred docs here](https://yaleman.github.io/py-auto-docs/).
+[Check out the generated docs here](https://yaleman.github.io/py-auto-docs/).
