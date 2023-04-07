@@ -538,14 +538,14 @@ files = [
 
 [[package]]
 name = "mkdocstrings"
-version = "0.20.0"
+version = "0.21.2"
 description = "Automatic documentation from sources, for MkDocs."
 category = "main"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "mkdocstrings-0.20.0-py3-none-any.whl", hash = "sha256:f17fc2c4f760ec302b069075ef9e31045aa6372ca91d2f35ded3adba8e25a472"},
-    {file = "mkdocstrings-0.20.0.tar.gz", hash = "sha256:c757f4f646d4f939491d6bc9256bfe33e36c5f8026392f49eaa351d241c838e5"},
+    {file = "mkdocstrings-0.21.2-py3-none-any.whl", hash = "sha256:949ef8da92df9d692ca07be50616459a6b536083a25520fd54b00e8814ce019b"},
+    {file = "mkdocstrings-0.21.2.tar.gz", hash = "sha256:304e56a2e90595708a38a13a278e538a67ad82052dd5c8b71f77a604a4f3d911"},
 ]
 
 [package.dependencies]
@@ -555,6 +555,7 @@ MarkupSafe = ">=1.1"
 mkdocs = ">=1.2"
 mkdocs-autorefs = ">=0.3.1"
 pymdown-extensions = ">=6.3"
+typing-extensions = {version = ">=4.1", markers = "python_version < \"3.10\""}
 
 [package.extras]
 crystal = ["mkdocstrings-crystal (>=0.3.4)"]
@@ -1014,14 +1015,14 @@ files = [
 
 [[package]]
 name = "typing-extensions"
-version = "4.0.1"
-description = "Backported and Experimental Type Hints for Python 3.6+"
-category = "dev"
+version = "4.5.0"
+description = "Backported and Experimental Type Hints for Python 3.7+"
+category = "main"
 optional = false
-python-versions = ">=3.6"
+python-versions = ">=3.7"
 files = [
-    {file = "typing_extensions-4.0.1-py3-none-any.whl", hash = "sha256:7f001e5ac290a0c0401508864c7ec868be4e701886d5b573a9528ed3973d9d3b"},
-    {file = "typing_extensions-4.0.1.tar.gz", hash = "sha256:4ca091dea149f945ec56afb48dae714f21e8692ef22a395223bcd328961b6a0e"},
+    {file = "typing_extensions-4.5.0-py3-none-any.whl", hash = "sha256:fb33085c39dd998ac16d1431ebc293a8b3eedd00fd4a32de0ff79002c19511b4"},
+    {file = "typing_extensions-4.5.0.tar.gz", hash = "sha256:5cb5f4a79139d699607b3ef622a1dedafa84e115ab0024e0d9c044a9479ca7cb"},
 ]
 
 [[package]]
@@ -1170,4 +1171,4 @@ testing = ["flake8 (<5)", "func-timeout", "jaraco.functools", "jaraco.itertools"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "aaf1a52763c93de25059bd1b6da9685f69ede2720862467bd4522f731c0c3fb9"
+content-hash = "b0d4cb7df90556cc5b60f9d5b9cfa1d4ad1eee9c86059af9c8df07f632551eb8"
