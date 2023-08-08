@@ -5,13 +5,17 @@ name: MKDocs Deployment to GitHub Pages
     branches:
       - main  # Set a branch to deploy
 
+permissions:
+  pages: write
+  contents: read
+
 jobs:
   mkdocs:
     name: Deploy docs
     runs-on: ubuntu-latest
     steps:
       - name: Checkout main
-        uses: actions/checkout@v3.5.2
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
       - name: Set up Python 3.9
