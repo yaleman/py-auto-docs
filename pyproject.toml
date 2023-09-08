@@ -8,7 +8,7 @@ license = "MIT"
 [tool.poetry.dependencies]
 python = "^3.9"
 mkdocs = "^1.5.2"
-mkdocstrings = "^0.22.0"
+mkdocstrings = "^0.23.0"
 mkdocs-material = "^9.2.8"
 
 [tool.poetry.dev-dependencies]
