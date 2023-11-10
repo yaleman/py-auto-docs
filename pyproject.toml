@@ -9,7 +9,7 @@ license = "MIT"
 python = "^3.9"
 mkdocs = "^1.5.3"
 mkdocstrings = "^0.23.0"
-mkdocs-material = "^9.4.7"
+mkdocs-material = "^9.4.8"
 
 [tool.poetry.dev-dependencies]
 pylint = "^3.0.2"
