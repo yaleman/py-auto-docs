@@ -12,7 +12,7 @@ mkdocstrings = "^0.25.2"
 mkdocs-material = "^9.5.18"
 
 [tool.poetry.dev-dependencies]
-pylint = "^3.2.5"
+pylint = "^3.2.6"
 mypy = "^1.11"
 black = "^24.4.2"
 pytest = "^8.2.2"
