@@ -16,7 +16,7 @@ pylint = "^3.3.2"
 mypy = "^1.14"
 black = "^24.10.0"
 pytest = "^8.3.4"
-mkdocstrings-python = "^1.12.2"
+mkdocstrings-python = "^1.13.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
