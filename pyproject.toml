@@ -15,7 +15,7 @@ mkdocs-material = "^9.5.18"
 pylint = "^3.3.4"
 mypy = "^1.15"
 black = "^25.1.0"
-pytest = "^8.3.4"
+pytest = "^8.3.5"
 mkdocstrings-python = "^1.16.1"
 
 [build-system]
