@@ -567,14 +567,14 @@ files = [
 
 [[package]]
 name = "mkdocstrings"
-version = "0.28.2"
+version = "0.28.3"
 description = "Automatic documentation from sources, for MkDocs."
 optional = false
 python-versions = ">=3.9"
 groups = ["main", "dev"]
 files = [
-    {file = "mkdocstrings-0.28.2-py3-none-any.whl", hash = "sha256:57f79c557e2718d217d6f6a81bf75a0de097f10e922e7e5e00f085c3f0ff6895"},
-    {file = "mkdocstrings-0.28.2.tar.gz", hash = "sha256:9b847266d7a588ea76a8385eaebe1538278b4361c0d1ce48ed005be59f053569"},
+    {file = "mkdocstrings-0.28.3-py3-none-any.whl", hash = "sha256:df5351ffd10477aa3c2ff5cdf17544b936477195436923660274d084a5c1359c"},
+    {file = "mkdocstrings-0.28.3.tar.gz", hash = "sha256:c753516b1b6cee12d00bf9c28255e22c0d71f34c721ca668971fce885d846e0f"},
 ]
 
 [package.dependencies]
@@ -590,7 +590,7 @@ typing-extensions = {version = ">=4.1", markers = "python_version < \"3.10\""}
 
 [package.extras]
 crystal = ["mkdocstrings-crystal (>=0.3.4)"]
-python = ["mkdocstrings-python (>=0.5.2)"]
+python = ["mkdocstrings-python (>=1.16.2)"]
 python-legacy = ["mkdocstrings-python-legacy (>=0.2.1)"]
 
 [[package]]
@@ -1171,4 +1171,4 @@ test = ["big-O", "jaraco.functools", "jaraco.itertools", "jaraco.test", "more-it
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.9"
-content-hash = "23179a73468cc7e1389ef4f644c7393f4cc725eb41c60fcca3f8e8ba6afc9f66"
+content-hash = "fadf711dce0a972a98f740e3485aeca7ccd31caed15411401d41b39beb387770"
