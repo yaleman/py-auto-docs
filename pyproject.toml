@@ -14,7 +14,7 @@ mkdocs-material = "^9.5.18"
 [tool.poetry.dev-dependencies]
 pylint = "^3.3.9"
 mypy = "^1.18"
-black = "^25.9.0"
+black = "^25.11.0"
 pytest = "^8.4.2"
 mkdocstrings-python = "^1.16.12"
 
